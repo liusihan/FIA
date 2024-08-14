@@ -41,6 +41,30 @@ conda env create -f FIA.yaml
 conda activate FIA
 pip install -r requirements.txt
 ```
+## Annotation
+`FIA` use VEP and vcfanno to determine the effect of variants (SNVs, insertions, deletions) on genes, transcripts, and protein sequence. To get annotation for the variant, indexed_vep_cache (homo_sapiens_refseq 105_GRCh37 and 105_GRCh38) and fasta files are required. VEP cache and faste files can be downloaded as follows:
+```shell
+# indexed vep cache
+cd $HOME/.vep
+wget https://ftp.ensembl.org/pub/release-105/variation/vep/homo_sapiens_refseq_vep_105_GRCh38.tar.gz
+wget https://ftp.ensembl.org/pub/release-105/variation/vep/homo_sapiens_refseq_vep_105_GRCh37.tar.gz
+tar xzf homo_sapiens_refseq_vep_105_GRCh38.tar.gz
+tar xzf homo_sapiens_refseq_vep_105_GRCh37.tar.gz
+wget https://ftp.ensembl.org/pub/release-105/variation/vep/homo_sapiens_merged_vep_105_GRCh38.tar.gz
+wget https://ftp.ensembl.org/pub/release-105/variation/vep/homo_sapiens_merged_vep_105_GRCh37.tar.gz
+tar xzf homo_sapiens_merged_vep_105_GRCh38.tar.gz
+tar xzf homo_sapiens_merged_vep_105_GRCh37.tar.gz
+
+#fasta file
+cd FIA/Scripts/AutoPVS1/data
+wget https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz
+gunzip hg19.fa.gz
+mv GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz hg38.fa.gz
+gunzip hg38.fa.gz
+samtools faidx hg19.fa
+samtools faidx hg38.fa
+```
 
 ## Citation
 If you use BayesQuantify, please cite our paper (thanks!):
