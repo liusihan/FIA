@@ -1,0 +1,13 @@
+WFS1	LF–SNHL 
+MYH9	MYH9 related disorders 
+DIAPH1	AD hearing loss with macrothrombocytopenia 
+GPSM2	Chudley-McCullough syndrome 
+SLC26A4	Pendred syndrome 
+MYO7A,USH1C,CDH23,PCDH15,USH1G	Usher syndrome Type I 
+USH2A,ADGRV1,GPR98,WHRN,DFNB31	Usher syndrome Type II 
+CLRN1	Usher syndrome Type III 
+EYA1,SIX1	Branchiooto-renal syndrome 
+OTOF,AIFM1,DFNB59	ANSD
+KCNE1,KCNQ1	Jervell and LangeNielsen syndrome 
+PAX3,SOX10,MITF,EDN3,EDNRB	Waardenburg syndrome 
+POU3F4	X-linked recessive deafness 

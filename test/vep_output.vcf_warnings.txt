@@ -1,0 +1,7 @@
+WARNING: Failed to compile plugin /NAS/Database/genome/.vep/Plugins/MaxEntScan/fordownload: Unknown regexp modifier "/D" at (eval 41) line 2, at end of line
+Unknown regexp modifier "/t" at (eval 41) line 2, at end of line
+Unknown regexp modifier "/b" at (eval 41) line 2, at end of line
+Regexp modifier "/a" may appear a maximum of twice at (eval 41) line 2, at end of line
+Unknown regexp modifier "/e" at (eval 41) line 2, at end of line
+syntax error at (eval 41) line 2, near "use /NAS/Database"
+

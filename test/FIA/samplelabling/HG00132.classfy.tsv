@@ -1,0 +1,37 @@
+chrom	pos	ref	alt	transcript	symbol	gene	gnomAD_AF_SAS_WES	gnomAD_grpmax_WES	gnomAD_AF_grpmax_WGS	gnomAD_AF_EAS_WES	gnomAD_AF_ASJ_WES	gnomAD_AF_MID_WES	gnomAD_AF_FIN_WES	gnomAD_AF_NFE_WES	GT	AD	DP	GQ	PL	AR_classify	AR_P_classify	AR_B_classify	AR_evidence	AD_classify	AD_P_classify	AD_B_classify	AD_evidence
+13	20761763	A	G	ENST00000382844	GJB2	ENSG00000165474	.	.	1	.	.	.	.	.	1/1	0,25	25	75	829,75,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20761763	A	G	ENST00000382848	GJB2	ENSG00000165474	.	.	1	.	.	.	.	.	1/1	0,25	25	75	829,75,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20761763	A	G	NM_004004.6	GJB2	2706	.	.	1	.	.	.	.	.	1/1	0,25	25	75	829,75,0	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20761888	C	T	ENST00000382844	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,36	36	99	1229,108,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20761888	C	T	ENST00000382848	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,36	36	99	1229,108,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20761888	C	T	NM_004004.6	GJB2	2706	.	.	0.9992	.	.	.	.	.	1/1	0,36	36	99	1229,108,0	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20761973	C	A	ENST00000382844	GJB2	ENSG00000165474	.	.	0.999	.	.	.	1	.	1/1	1,29	30	80	999,80,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20761973	C	A	ENST00000382848	GJB2	ENSG00000165474	.	.	0.999	.	.	.	1	.	1/1	1,29	30	80	999,80,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20761973	C	A	NM_004004.6	GJB2	2706	.	.	0.999	.	.	.	1	.	1/1	1,29	30	80	999,80,0	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20762956	A	G	ENST00000382844	GJB2	ENSG00000165474	0.5862	0.8676	0.8672	0.5636	0.8147	0.7765	0.8704	0.8273	1/1	0,21	21	63	730,63,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20762956	A	G	ENST00000382848	GJB2	ENSG00000165474	0.5862	0.8676	0.8672	0.5636	0.8147	0.7765	0.8704	0.8273	1/1	0,21	21	63	730,63,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20762956	A	G	NM_004004.6	GJB2	2706	0.5862	0.8676	0.8672	0.5636	0.8147	0.7765	0.8704	0.8273	1/1	0,21	21	63	730,63,0	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20763037	G	T	ENST00000382844	GJB2	ENSG00000165474	0.00011975	0.00075582	0.0020872	0	3.8302e-05	0	0.0091666	0.00075582	0/1	10,17	27	99	510,0,266	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20763037	G	T	ENST00000382848	GJB2	ENSG00000165474	0.00011975	0.00075582	0.0020872	0	3.8302e-05	0	0.0091666	0.00075582	0/1	10,17	27	99	510,0,266	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20763037	G	T	NM_004004.6	GJB2	2706	0.00011975	0.00075582	0.0020872	0	3.8302e-05	0	0.0091666	0.00075582	0/1	10,17	27	99	510,0,266	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20764074	G	T	ENST00000382844	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,32	32	96	1091,96,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20764074	G	T	ENST00000382848	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,32	32	96	1091,96,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20764074	G	T	NM_004004.6	GJB2	2706	.	.	0.9992	.	.	.	.	.	1/1	0,32	32	96	1091,96,0	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20764940	C	T	ENST00000382844	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,30	30	90	1349,90,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20764940	C	T	ENST00000382848	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,30	30	90	1349,90,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20764940	C	T	NM_004004.6	GJB2	2706	.	.	0.9992	.	.	.	.	.	1/1	0,30	30	90	1349,90,0	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20764945	T	C	ENST00000382844	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,30	30	90	1349,90,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20764945	T	C	ENST00000382848	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,30	30	90	1349,90,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20764945	T	C	NM_004004.6	GJB2	2706	.	.	0.9992	.	.	.	.	.	1/1	0,30	30	90	1349,90,0	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20765601	C	T	ENST00000382844	GJB2	ENSG00000165474	.	.	0.2837	.	.	.	.	.	0/1	19,16	35	99	452,0,506	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20765601	C	T	ENST00000382848	GJB2	ENSG00000165474	.	.	0.2837	.	.	.	.	.	0/1	19,16	35	99	452,0,506	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20765601	C	T	NM_004004.6	GJB2	2706	.	.	0.2837	.	.	.	.	.	0/1	19,16	35	99	452,0,506	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20765601	C	T	ENSR00000059641			.	.	0.2837	.	.	.	.	.	0/1	19,16	35	99	452,0,506	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20765831	T	C	ENST00000382844	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,33	33	99	1126,99,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20765831	T	C	ENST00000382848	GJB2	ENSG00000165474	.	.	0.9992	.	.	.	.	.	1/1	0,33	33	99	1126,99,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20765831	T	C	NM_004004.6	GJB2	2706	.	.	0.9992	.	.	.	.	.	1/1	0,33	33	99	1126,99,0	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20765831	T	C	ENSR00000059641			.	.	0.9992	.	.	.	.	.	1/1	0,33	33	99	1126,99,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20766130	G	A	ENST00000382844	GJB2	ENSG00000165474	.	.	0.8611	.	.	.	.	.	1/1	0,44	44	99	1529,132,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20766130	G	A	ENST00000382848	GJB2	ENSG00000165474	.	.	0.8611	.	.	.	.	.	1/1	0,44	44	99	1529,132,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0
+13	20766130	G	A	NM_004004.6	GJB2	2706	.	.	0.8611	.	.	.	.	.	1/1	0,44	44	99	1529,132,0	Benign	Uncertain significance	Benign	BA1=0;BS2=1	Benign	Uncertain significance	Benign	BA1=0
+13	20766130	G	A	ENSR00000059641			.	.	0.8611	.	.	.	.	.	1/1	0,44	44	99	1529,132,0	Benign	Uncertain significance	Benign	BA1=0	Benign	Uncertain significance	Benign	BA1=0

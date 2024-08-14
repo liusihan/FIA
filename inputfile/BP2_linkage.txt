@@ -1,0 +1,3 @@
+sampleid	chr	pos	ref	alt
+HG00097	17	18022968	A	AT
+HG00097	17	18055194	G	A
