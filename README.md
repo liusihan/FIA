@@ -41,10 +41,11 @@ conda env create -f FIA.yaml
 conda activate FIA
 pip install -r requirements.txt
 ```
-## Annotation
-`FIA` use VEP and vcfanno to determine the effect of variants (SNVs, insertions, deletions) on genes, transcripts, and protein sequence. To get annotation for the variant, indexed_vep_cache (homo_sapiens_refseq 105_GRCh37 and 105_GRCh38) and fasta files are required. VEP cache and faste files can be downloaded as follows:
+## Download annotation files
+`FIA` use VEP and vcfanno to determine the effect of variants (SNVs, insertions, deletions) on genes, transcripts, and protein sequence. To get annotation for the variant, indexed_vep_cache (homo_sapiens_refseq 105_GRCh37 and 105_GRCh38) and fasta files are required. VEP cache and plugins files can be downloaded as follows:
 ```shell
 # indexed vep cache
+mkdir $HOME/.vep
 cd $HOME/.vep
 wget https://ftp.ensembl.org/pub/release-105/variation/vep/homo_sapiens_refseq_vep_105_GRCh38.tar.gz
 wget https://ftp.ensembl.org/pub/release-105/variation/vep/homo_sapiens_refseq_vep_105_GRCh37.tar.gz
@@ -54,6 +55,8 @@ wget https://ftp.ensembl.org/pub/release-105/variation/vep/homo_sapiens_merged_v
 wget https://ftp.ensembl.org/pub/release-105/variation/vep/homo_sapiens_merged_vep_105_GRCh37.tar.gz
 tar xzf homo_sapiens_merged_vep_105_GRCh38.tar.gz
 tar xzf homo_sapiens_merged_vep_105_GRCh37.tar.gz
+mkdir Plugins
+cp -r FIA/Plugins ./
 
 #fasta file
 cd FIA/Scripts/AutoPVS1/data
@@ -62,13 +65,27 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_G
 gunzip hg19.fa.gz
 mv GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz hg38.fa.gz
 gunzip hg38.fa.gz
+cat hg19.fa | sed 's/^>chr/>/g' >hg19.nochr.fa
+cat hg38.fa | sed 's/^>chr/>/g' >hg38.nochr.fa
 samtools faidx hg19.fa
 samtools faidx hg38.fa
+samtools faidx hg19.nochr.fa
+samtools faidx hg38.nochr.fa
+```
+
+The database and Scripts directory contain the data and conf for a full example of the GJB2 gene. To run with a complete genome, users needs download the appropriate databases and reverse the file name in the anno.demo.conf file.
+
+## USAGE
+```shell
+cd FIA
+sh FIA_annotation.sh example/1000G_GJB2.vcf.gz GRCh37 Scripts/AutoPVS1/data/hg19.nochr.fa $HOME/.vep test
+sh FIA_classification.sh test/annotated_raw.AF_stats.vcf.gz GRCh37 test/FIA
+sh test/FIA/bin/run_FIA.sh
 ```
 
 ## Citation
 If you use BayesQuantify, please cite our paper (thanks!):
-> Liu S, Feng X, Bu F. BayesQuantify: an R package utilized to refine the ACMG/AMP criteria according to the Bayesian framework. XXX.
+> Liu S, et.al,. FIA: An iterative analysis framework for semi-automating variant classification in genetic hearing loss. XXX.
 
 
 ## Getting help
