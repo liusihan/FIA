@@ -11,7 +11,7 @@ The main steps of FIA are shown in Figure 1:
 Install `FIA` from GitHub:
 
 ``` linux
-git clone https://github.com/liusihan/FIA
+git clone https://github.com/liusihan/FIA.git
 ```
 
 ### Conda
