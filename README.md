@@ -88,7 +88,7 @@ sh test/FIA/bin/run_FIA.sh
 
 ## Citation
 If you use FIA, please cite our paper (thanks!):
-> Liu S, et.al,. FIA: An iterative analysis framework for semi-automating variant classification in genetic hearing loss. XXX.
+> Liu S, et.al,. FIA: An Iterative Analysis Framework for Enhanced Variant Classification in Large Mendelian Disease Cohorts. XXX.
 
 
 ## Getting help
