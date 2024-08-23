@@ -1,6 +1,6 @@
 steps
 step1.4 finished
-step1.2 finished
 step1.3 finished
+step1.2 finished
 step1.1 finished
 step2 finished

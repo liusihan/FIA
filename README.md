@@ -1,9 +1,12 @@
 # FIA: An iterative analysis framework for semi-automating variant classification in genetic hearing loss
 
 ## Overview
-Here, we propose a 'framework of iterative analysis (FIA)' designed to semi-automate variant classification in genetic hearing loss, particularly suited for cohort data. The development of FIA aims to improve the efficiency and accuracy of genetic diagnosis across various deafness genes, with potential applicability to other Mendelian disorders. FIA crucially leverages genetic and phenotypic connections within the patient cohort, utilizing additional evidence from diagnosed cases to iteratively identify novel P/LP variants in previously undiagnosed cases. 
+To address these limitations and improve the efficiency and accuracy of genetic diagnosis for Mendelian diseases, we developed the Framework of Iterative Analysis (FIA). This framework integrated the construction of disease mutation databases, automated retrieval of ACMG/AMP evidence, adjustments to specific rules, and the classification of variant pathogenicity. 
 
-The main steps of FIA are shown in Figure 1:
+Figure 1 illustrates the primary steps involved in FIA.
+
+![Figure 1](https://github.com/liusihan/FIA/blob/main/Figure1.jpeg)
+<p align="center"> Figure 1. Schematic overview of FIA. </p>
 
 ## Installation
 
@@ -84,7 +87,7 @@ sh test/FIA/bin/run_FIA.sh
 ```
 
 ## Citation
-If you use BayesQuantify, please cite our paper (thanks!):
+If you use FIA, please cite our paper (thanks!):
 > Liu S, et.al,. FIA: An iterative analysis framework for semi-automating variant classification in genetic hearing loss. XXX.
 
 

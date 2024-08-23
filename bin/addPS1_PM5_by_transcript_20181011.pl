@@ -143,7 +143,7 @@ while(<VEP>){
 
 		if(exists($p_variants{$varid}))
 		{
-			print OUT join("\t", @line[0..1], @line[3..4], $feature_all[$i], "1","NA"), "\n";
+			print OUT join("\t", @line[0..1], @line[3..4], $feature_all[$i], "NA","NA"), "\n";
 			next;
 		}
 
@@ -161,7 +161,10 @@ while(<VEP>){
 			$p =~ s/[a-zA-Z]+$//;
 			if(exists($pm5_id{$p}))
 			{ 
-				print OUT join("\t", @line[0..1], @line[3..4], $feature_all[$i], "NA","2"), "\n";
+				if($pm5_id{$p}==1)
+					{print OUT join("\t", @line[0..1], @line[3..4], $feature_all[$i], "NA","2"), "\n";}
+				if($pm5_id{$p}>=2)
+					{print OUT join("\t", @line[0..1], @line[3..4], $feature_all[$i], "NA","1"), "\n";}
 				$stat{"PM5"}++;
 				$stat{"var_pm5"}{$id}++;
 				next;

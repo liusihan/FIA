@@ -18,8 +18,8 @@ Classification<-function(evidence){
     b_Strong=str_count(string = b_evidence, pattern = "=1")
     b_Moderate=str_count(string = b_evidence, pattern = "=2")
     b_Supporting=str_count(string = b_evidence, pattern = "=3")
-    PVS1=str_count(string = p_evidence, pattern = "PVS1=VS")
-    PM2=str_count(string = p_evidence, pattern = "PM2=P")
+    PVS1=str_count(string = p_evidence, pattern = "PVS1=0")
+    PM2=str_count(string = p_evidence, pattern = "PM2=3")
     p_class=""
     b_class=""
     if(p_VeryStrong>=1 && p_Moderate==1){p_class="LP"}
@@ -28,6 +28,7 @@ Classification<-function(evidence){
     if(p_Moderate>=3){p_class="LP"}
     if(p_Moderate==2 && p_Supporting>=2){p_class="LP"}
     if(p_Moderate==1 && p_Supporting>=4){p_class="LP"}
+    if(PVS1==1 && PM2==1){p_class="LP"}
     if(p_VeryStrong>=1){
       if(p_Strong>=1 || p_Moderate>=2 || p_Supporting>=2 || (p_Moderate==1 && p_Supporting==1)){
         p_class="P"
